@@ -1,6 +1,6 @@
 const needle = require('needle');
-const token = process.env.BEARER_TOKEN;
 require('dotenv').config()
+const token = process.env.BEARER_TOKEN;
 
 const endpointUrl = "https://api.twitter.com/2/tweets/search/recent";
 
